@@ -6,9 +6,9 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"#bool => TypedSlot for: Boolean default: [ TypedSlotExample defaultBooleanValue ]",
+		"#bool => TypedSlot for: Boolean default: [ (self class environment at: #TypedSlotExample) defaultBooleanValue ]",
 		"#bool2 => TypedSlot for: Boolean default: true",
-		"#int => TypedSlot for: Number default: [ TypedSlotExample defaultIntegerValue ]",
+		"#int => TypedSlot for: Number default: [ (self class environment at: #TypedSlotExample) defaultIntegerValue ]",
 		"#point => TypedSlot for: {Point. UndefinedObject}"
 	],
 	"name" : "TypedSlotExample",
