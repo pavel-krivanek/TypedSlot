@@ -8,7 +8,7 @@ printOn: aStream
 		nextPutAll: ' for: ';
 		print: self allowedTypesSimplified.
 
-	(default == self) ifFalse: [ 
+	self hasDefault ifTrue: [ 
 		aStream
 			nextPutAll: ' default: '.
 		default printOn: aStream. ].

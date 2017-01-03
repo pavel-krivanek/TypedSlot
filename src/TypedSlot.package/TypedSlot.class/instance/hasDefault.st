@@ -1,0 +1,4 @@
+accessors
+hasDefault
+
+	^ hasDefault == true

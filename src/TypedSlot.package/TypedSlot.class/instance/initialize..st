@@ -1,5 +1,5 @@
 initialization
 initialize: anObject
 
-	default == self 
-		ifFalse: [ self write: default value to: anObject ].
+	self hasDefault ifTrue: [ 
+		self write: default value to: anObject ].

@@ -1,4 +1,5 @@
 accessors
 default: anObject
 
-	default := anObject
+	default := anObject.
+	hasDefault := true.

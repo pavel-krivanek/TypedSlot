@@ -1,13 +1,14 @@
 initialization
 for: allowedTypeOrTypes default: aDefaultValue
 
-"	| defaultValue |
-"
+	| realValue |
+
+	hasDefault := true.
 	allowedTypeOrTypes isCollection 
 		ifTrue: [ allowedTypes := allowedTypeOrTypes ]
 		ifFalse: [ allowedTypes := { allowedTypeOrTypes } ].
 		
-"	defaultValue := aDefaultValue value.
+	realValue := aDefaultValue value.
 		
-	self check: defaultValue.		
-"	default := aDefaultValue.
+	self check: realValue.		
+	default := aDefaultValue.
