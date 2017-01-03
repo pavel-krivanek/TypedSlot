@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "PavelKrivanek 1/3/2017 13:25",
+	"super" : "Object",
+	"category" : "TypedSlot-Tests",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"#bool => TypedSlot for: Boolean default: [ TypedSlotExample defaultBooleanValue ]",
+		"#bool2 => TypedSlot for: Boolean default: true",
+		"#int => TypedSlot for: Number default: [ TypedSlotExample defaultIntegerValue ]",
+		"#point => TypedSlot for: {Point. UndefinedObject}"
+	],
+	"name" : "TypedSlotExample",
+	"type" : "normal"
+}
