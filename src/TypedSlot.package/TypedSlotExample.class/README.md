@@ -1,0 +1,1 @@
+A TypedSlotExample is an example class to demonstrate the TypedSlot

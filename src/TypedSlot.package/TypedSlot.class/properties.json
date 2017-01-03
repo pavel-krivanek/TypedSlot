@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "PavelKrivanek 1/3/2017 12:03",
+	"super" : "InstanceVariableSlot",
+	"category" : "TypedSlot",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"allowedTypes",
+		"default"
+	],
+	"name" : "TypedSlot",
+	"type" : "normal"
+}
