@@ -1,4 +1,0 @@
-defaults
-defaultIntegerValue
-
-	^ 0
